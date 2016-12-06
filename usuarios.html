@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
-    <meta name="author" content="Coderthemes">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+        <meta name="author" content="Coderthemes">
 
-    <!-- App Favicon -->
-    <link rel="shortcut icon" href="assets/images/favicons.ico">
+        <!-- App Favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
 
-    <!-- App title -->
-    <title>Evolution Community</title>
+        <!-- App title -->
+       <title>Evolution Community</title>
 
-    <!--Morris Chart CSS -->
-    <link rel="stylesheet" href="assets/plugins/morris/morris.css">
+        <!-- Switchery css -->
+        <link href="assets/plugins/switchery/switchery.min.css" rel="stylesheet" />
 
-    <!-- Switchery css -->
-    <link href="assets/plugins/switchery/switchery.min.css" rel="stylesheet" />
+        <!-- DataTables -->
+        <link href="assets/plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+        <!-- Responsive datatable examples -->
+        <link href="assets/plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
 
-    <!-- App CSS -->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+        <!-- App CSS -->
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 
-    <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+        <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
-    <!-- Modernizr js -->
-    <script src="assets/js/modernizr.min.js"></script>
+        <!-- Modernizr js -->
+        <script src="assets/js/modernizr.min.js"></script>
 
-</head>
+    </head>
+
 <style type="text/css">
     #topnav .topbar-main {
         background-color: #ffffff;
@@ -79,7 +82,6 @@
     transition: all 0.3s ease-out;
     }
 
-
     .usu:hover {
     color: white;
     }
@@ -111,7 +113,7 @@
                         </li>
 
                         <li class="has-submenu">
-                            <a href="usuarios.html"><span> Usuarios </span> </a>
+                            <a href="#"><span> Usuarios </span> </a>
 
                         </li>
 
@@ -215,7 +217,7 @@
                         </div>
 
                     </div>
-                    <h4 class="page-title">Dashboard</h4>
+                    <h4 class="page-title">135 Usuarios</h4>
                 </div>
             </div>
 
@@ -223,209 +225,111 @@
 
             <!-- end row -->
 
+<div class="row">
+                    <div class="col-sm-12">
+                        <div class="card-box table-responsive">
+                           
 
-            <div class="row">
-                <div class="col-xs-12 col-lg-12 col-xl-8">
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6">
-                            <div class="card card-block text-xs-center">
-                                <h4 class="card-title"><i class="icon-user text-muted usu white"></i></h4>
-                                <p class="card-text">Usuarios</p>
-                                <a href="#" class="btn btn-secondary waves-effect">Crear usuarios</a>
-
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-md-6">
-                            <div class="card card-block text-xs-center">
-                                <h4 class="card-title"><i class="icon-graduation text-muted usu"></i></h4>
-                                <p class="card-text">Cursos
-                                    <p class="text-muted font-13">
-                                        Your awesome text goes here.
-                                    </p>
-                                </p>
-
-                            </div>
-
-
-                        </div>
-
-                    </div>
-
-
-                    <h4 class="header-title m-t-0">Datos sobre cursos</h4>
-
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6 col-lg-6 col-xl-4">
-                            <div class="card-box tilebox-one">
-                                <i class="icon-layers pull-xs-right text-muted"></i>
-                                <h6 class="text-muted text-uppercase m-b-20 green">Orders</h6>
-                                <h2 class="m-b-20" data-plugin="counterup">1,587</h2>
-
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-md-6 col-lg-6 col-xl-4">
-                            <div class="card-box tilebox-one">
-                                <i class="icon-paypal pull-xs-right text-muted"></i>
-                                <h6 class="text-muted text-uppercase m-b-20 blue">Revenue</h6>
-                                <h2 class="m-b-20">$<span data-plugin="counterup">46,782</span></h2>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-md-6 col-lg-6 col-xl-4">
-                            <div class="card-box tilebox-one">
-                                <i class="icon-chart pull-xs-right text-muted"></i>
-                                <h6 class="text-muted text-uppercase m-b-20 red">Average Price</h6>
-                                <h2 class="m-b-20">$<span data-plugin="counterup">15.9</span></h2>
-                            </div>
-                        </div>
-
-                    </div>
-                    <h4 class="header-title m-t-0">Datos sobre usuarios</h4>
-
-
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6 col-lg-6 col-xl-4">
-                            <div class="card-box tilebox-one">
-                                <i class="icon-layers pull-xs-right text-muted"></i>
-                                <h6 class="text-muted text-uppercase m-b-20">Orders</h6>
-                                <h2 class="m-b-20" data-plugin="counterup">1,587</h2>
-
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-md-6 col-lg-6 col-xl-4">
-                            <div class="card-box tilebox-one">
-                                <i class="icon-paypal pull-xs-right text-muted"></i>
-                                <h6 class="text-muted text-uppercase m-b-20">Revenue</h6>
-                                <h2 class="m-b-20">$<span data-plugin="counterup">46,782</span></h2>
-
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-md-6 col-lg-6 col-xl-4">
-                            <div class="card-box tilebox-one">
-                                <i class="icon-chart pull-xs-right text-muted"></i>
-                                <h6 class="text-muted text-uppercase m-b-20">Average Price</h6>
-                                <h2 class="m-b-20">$<span data-plugin="counterup">15.9</span></h2>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-
-
-                    <h4 class="header-title m-t-0">Line Chart</h4>
-                    <p class="text-muted font-13 m-b-10">
-                        A line chart is a way of plotting data points on a line. Often, it is used to show trend data, and the comparison of two data sets.
-                    </p>
-
-                    <div class="p-20">
-                        <iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;"></iframe>
-                        <canvas id="lineChart" height="300" width="772" style="width: 772px; height: 300px;"></canvas>
-                    </div>
-
-                </div>
-                <!-- end col-->
-
-                <div class="col-xs-12 col-lg-12 col-xl-4" style="border-left: 1px solid rgba(67, 89, 102, 0.1);">
-
-                    <div class="card-box">
-
-                        <h4 class="header-title m-t-0 m-b-30">Inbox</h4>
-
-                        <div class="inbox-widget nicescroll" style="height: 320px;">
-                            <a href="#">
-                                <div class="inbox-item">
-                                    <div class="inbox-item-img"><img src="assets/images/users/avatar-1.jpg" class="img-circle" alt="">
+                            <div id="datatable_wrapper" class="dataTables_wrapper form-inline dt-bootstrap4 no-footer">
+                                  <div class="row">
+                                    <div class="col-md-6">
+                                      <div class="dataTables_length" id="datatable_length">
+                                        <label>Show <select name="datatable_length" aria-controls="datatable" class="form-control input-sm">
+                                                            <option value="10">10</option>
+                                                            <option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div>
                                     </div>
-                                    <p class="inbox-item-author">Chadengle</p>
-                                    <p class="inbox-item-text">Hey! there I'm available...</p>
-                                    <p class="inbox-item-date">13:40 PM</p>
-                                </div>
-                            </a>
-                            <a href="#">
-                                <div class="inbox-item">
-                                    <div class="inbox-item-img"><img src="assets/images/users/avatar-2.jpg" class="img-circle" alt="">
+                                    <div class="col-md-6">
+                                      <div id="datatable_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="" aria-controls="datatable"></label></div>
                                     </div>
-                                    <p class="inbox-item-author">Tomaslau</p>
-                                    <p class="inbox-item-text">I've finished it! See you so...</p>
-                                    <p class="inbox-item-date">13:34 PM</p>
-                                </div>
-                            </a>
-                            <a href="#">
-                                <div class="inbox-item">
-                                    <div class="inbox-item-img"><img src="assets/images/users/avatar-3.jpg" class="img-circle" alt="">
-                                    </div>
-                                    <p class="inbox-item-author">Stillnotdavid</p>
-                                    <p class="inbox-item-text">This theme is awesome!</p>
-                                    <p class="inbox-item-date">13:17 PM</p>
-                                </div>
-                            </a>
-                            <a href="#">
-                                <div class="inbox-item">
-                                    <div class="inbox-item-img"><img src="assets/images/users/avatar-4.jpg" class="img-circle" alt="">
-                                    </div>
-                                    <p class="inbox-item-author">Kurafire</p>
-                                    <p class="inbox-item-text">Nice to meet you</p>
-                                    <p class="inbox-item-date">12:20 PM</p>
-                                </div>
-                            </a>
-                            <a href="#">
-                                <div class="inbox-item">
-                                    <div class="inbox-item-img"><img src="assets/images/users/avatar-5.jpg" class="img-circle" alt="">
-                                    </div>
-                                    <p class="inbox-item-author">Shahedk</p>
-                                    <p class="inbox-item-text">Hey! there I'm available...</p>
-                                    <p class="inbox-item-date">10:15 AM</p>
-                                </div>
-                            </a>
-                            <a href="#">
-                                <div class="inbox-item">
-                                    <div class="inbox-item-img"><img src="assets/images/users/avatar-6.jpg" class="img-circle" alt="">
-                                    </div>
-                                    <p class="inbox-item-author">Adhamdannaway</p>
-                                    <p class="inbox-item-text">This theme is awesome!</p>
-                                    <p class="inbox-item-date">9:56 AM</p>
-                                </div>
-                            </a>
-                            <a href="#">
-                                <div class="inbox-item">
-                                    <div class="inbox-item-img"><img src="assets/images/users/avatar-8.jpg" class="img-circle" alt="">
-                                    </div>
-                                    <p class="inbox-item-author">Arashasghari</p>
-                                    <p class="inbox-item-text">Hey! there I'm available...</p>
-                                    <p class="inbox-item-date">10:15 AM</p>
-                                </div>
-                            </a>
-                            <a href="#">
-                                <div class="inbox-item">
-                                    <div class="inbox-item-img"><img src="assets/images/users/avatar-9.jpg" class="img-circle" alt="">
-                                    </div>
-                                    <p class="inbox-item-author">Joshaustin</p>
-                                    <p class="inbox-item-text">I've finished it! See you so...</p>
-                                    <p class="inbox-item-date">9:56 AM</p>
-                                </div>
-                            </a>
+                                  </div>
+
+
+                                  
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <table id="datatable" class="table table-striped table-bordered dataTable no-footer" role="grid" aria-describedby="datatable_info">
+                             
+
+
+                                <tbody>
+                                <tr role="row" class="odd">
+                                        <td class="sorting_1">Airi Satou</td>
+                                        <td>Accountant</td>
+                                        <td>Tokyo</td>
+                                        <td>33</td>
+                                        <td>2008/11/28</td>
+                                        <td>$162,700</td>
+                                    </tr><tr role="row" class="even">
+                                        <td class="sorting_1">Angelica Ramos</td>
+                                        <td>Chief Executive Officer (CEO)</td>
+                                        <td>London</td>
+                                        <td>47</td>
+                                        <td>2009/10/09</td>
+                                        <td>$1,200,000</td>
+                                    </tr><tr role="row" class="odd">
+                                        <td class="sorting_1">Ashton Cox</td>
+                                        <td>Junior Technical Author</td>
+                                        <td>San Francisco</td>
+                                        <td>66</td>
+                                        <td>2009/01/12</td>
+                                        <td>$86,000</td>
+                                    </tr><tr role="row" class="even">
+                                        <td class="sorting_1">Bradley Greer</td>
+                                        <td>Software Engineer</td>
+                                        <td>London</td>
+                                        <td>41</td>
+                                        <td>2012/10/13</td>
+                                        <td>$132,000</td>
+                                    </tr><tr role="row" class="odd">
+                                        <td class="sorting_1">Brenden Wagner</td>
+                                        <td>Software Engineer</td>
+                                        <td>San Francisco</td>
+                                        <td>28</td>
+                                        <td>2011/06/07</td>
+                                        <td>$206,850</td>
+                                    </tr><tr role="row" class="even">
+                                        <td class="sorting_1">Brielle Williamson</td>
+                                        <td>Integration Specialist</td>
+                                        <td>New York</td>
+                                        <td>61</td>
+                                        <td>2012/12/02</td>
+                                        <td>$372,000</td>
+                                    </tr><tr role="row" class="odd">
+                                        <td class="sorting_1">Bruno Nash</td>
+                                        <td>Software Engineer</td>
+                                        <td>London</td>
+                                        <td>38</td>
+                                        <td>2011/05/03</td>
+                                        <td>$163,500</td>
+                                    </tr><tr role="row" class="even">
+                                        <td class="sorting_1">Caesar Vance</td>
+                                        <td>Pre-Sales Support</td>
+                                        <td>New York</td>
+                                        <td>21</td>
+                                        <td>2011/12/12</td>
+                                        <td>$106,450</td>
+                                    </tr><tr role="row" class="odd">
+                                        <td class="sorting_1">Cara Stevens</td>
+                                        <td>Sales Assistant</td>
+                                        <td>New York</td>
+                                        <td>46</td>
+                                        <td>2011/12/06</td>
+                                        <td>$145,600</td>
+                                    </tr><tr role="row" class="even">
+                                        <td class="sorting_1">Cedric Kelly</td>
+                                        <td>Senior Javascript Developer</td>
+                                        <td>Edinburgh</td>
+                                        <td>22</td>
+                                        <td>2012/03/29</td>
+                                        <td>$433,060</td>
+                                    </tr></tbody>
+                            </table></div></div><div class="row"><div class="col-md-5"><div class="dataTables_info" id="datatable_info" role="status" aria-live="polite">Showing 1 to 10 of 57 entries</div></div><div class="col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="datatable_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="datatable_previous"><a href="#" aria-controls="datatable" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="datatable" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item "><a href="#" aria-controls="datatable" data-dt-idx="2" tabindex="0" class="page-link">2</a></li><li class="paginate_button page-item "><a href="#" aria-controls="datatable" data-dt-idx="3" tabindex="0" class="page-link">3</a></li><li class="paginate_button page-item "><a href="#" aria-controls="datatable" data-dt-idx="4" tabindex="0" class="page-link">4</a></li><li class="paginate_button page-item "><a href="#" aria-controls="datatable" data-dt-idx="5" tabindex="0" class="page-link">5</a></li><li class="paginate_button page-item "><a href="#" aria-controls="datatable" data-dt-idx="6" tabindex="0" class="page-link">6</a></li><li class="paginate_button page-item next" id="datatable_next"><a href="#" aria-controls="datatable" data-dt-idx="7" tabindex="0" class="page-link">Next</a></li></ul></div></div></div></div>
                         </div>
-
-
-
                     </div>
                 </div>
-                <!-- end col-->
-
-
-            </div>
-            <!-- end row -->
-
 
         </div>
         <!-- container -->
-
-
 
 
         <!-- Right Sidebar -->
@@ -558,42 +462,52 @@
     </div>
     <!-- End wrapper -->
 
+ <script>
+            var resizefunc = [];
+        </script>
 
+        <!-- jQuery  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/tether.min.js"></script><!-- Tether for Bootstrap -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/waves.js"></script>
+        <script src="assets/js/jquery.nicescroll.js"></script>
+        <script src="assets/plugins/switchery/switchery.min.js"></script>
 
+        <!-- Required datatable js -->
+        <script src="assets/plugins/datatables/jquery.dataTables.min.js"></script>
+        <script src="assets/plugins/datatables/dataTables.bootstrap4.min.js"></script>
+        <!-- Buttons examples -->
+        <script src="assets/plugins/datatables/dataTables.buttons.min.js"></script>
+        <script src="assets/plugins/datatables/buttons.bootstrap4.min.js"></script>
+        <script src="assets/plugins/datatables/jszip.min.js"></script>
+        <script src="assets/plugins/datatables/pdfmake.min.js"></script>
+        <script src="assets/plugins/datatables/vfs_fonts.js"></script>
+        <script src="assets/plugins/datatables/buttons.html5.min.js"></script>
+        <script src="assets/plugins/datatables/buttons.print.min.js"></script>
+        <script src="assets/plugins/datatables/buttons.colVis.min.js"></script>
+        <!-- Responsive examples -->
+        <script src="assets/plugins/datatables/dataTables.responsive.min.js"></script>
+        <script src="assets/plugins/datatables/responsive.bootstrap4.min.js"></script>
 
-    <script>
-        var resizefunc = [];
-    </script>
+        <script src="assets/js/jquery.core.js"></script>
+        <script src="assets/js/jquery.app.js"></script>
 
-    <!-- jQuery  -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/tether.min.js"></script>
-    <!-- Tether for Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/waves.js"></script>
-    <script src="assets/js/jquery.nicescroll.js"></script>
-    <script src="assets/plugins/switchery/switchery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#datatable').DataTable();
 
-    <!--Morris Chart-->
-    <script src="assets/plugins/morris/morris.min.js"></script>
-    <script src="assets/plugins/raphael/raphael-min.js"></script>
+                //Buttons examples
+                var table = $('#datatable-buttons').DataTable({
+                    lengthChange: false,
+                    buttons: ['copy', 'excel', 'pdf', 'colvis']
+                });
 
-    <!-- Counter Up  -->
-    <script src="assets/plugins/waypoints/lib/jquery.waypoints.js"></script>
-    <script src="assets/plugins/counterup/jquery.counterup.min.js"></script>
+                table.buttons().container()
+                        .appendTo('#datatable-buttons_wrapper .col-md-6:eq(0)');
+            } );
 
-    <!-- Chart JS -->
-    <script src="assets/plugins/chart.js/chart.min.js"></script>
-    <script src="assets/pages/chartjs.init.js"></script>
-
-    <!-- App js -->
-    <script src="assets/js/jquery.core.js"></script>
-    <script src="assets/js/jquery.app.js"></script>
-
-    <!-- Page specific js -->
-    <script src="assets/pages/jquery.dashboard.js"></script>
-
-
+        </script>
 
 </body>
 

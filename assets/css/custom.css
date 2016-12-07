@@ -7,6 +7,9 @@
 .bord-top {
   border-top: 1px solid rgba(67, 89, 102, 0.1); }
 
+.bord-left {
+  border-left: 1px solid rgba(67, 89, 102, 0.1); }
+
 div.img-center img {
   display: block;
   margin: 0 auto;
@@ -20,7 +23,5 @@ div.img-center h6:hover {
 
 div#usr-config input, div#usr-config h6, div#usr-config img {
   margin-bottom: 2em; }
-div#usr-config .form-control {
-  background-color: #ccc; }
 
 /*# sourceMappingURL=custom.css.map */

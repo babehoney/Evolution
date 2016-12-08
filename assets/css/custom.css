@@ -39,5 +39,7 @@ div.sender-main {
   border: 1px solid red; }
   div.sender-main .sender-img {
     overflow: auto; }
+  div.sender-main .sender-main-date {
+    color: #ccc; }
 
 /*# sourceMappingURL=custom.css.map */

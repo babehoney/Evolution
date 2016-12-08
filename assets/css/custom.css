@@ -10,6 +10,9 @@
 .bord-left {
   border-left: 1px solid rgba(67, 89, 102, 0.1); }
 
+.top-tit {
+  margin-top: 3em; }
+
 div.img-center {
   padding-top: 2em; }
   div.img-center img {

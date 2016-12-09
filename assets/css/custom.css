@@ -18,16 +18,16 @@
 
 div.img-center {
   padding-top: 2em; }
-  div.img-center img {
-    display: block;
-    margin: 0 auto;
-    margin-top: 1em; }
-  div.img-center h6 {
-    text-align: center;
-    transition: color 0.55s ease; }
-  div.img-center h6:hover {
-    cursor: pointer;
-    color: #039cfd; }
+div.img-center img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em; }
+div.img-center h6 {
+  text-align: center;
+  transition: color 0.55s ease; }
+div.img-center h6:hover {
+  cursor: pointer;
+  color: #039cfd; }
 
 div#usr-config input, div#usr-config h6, div#usr-config img {
   margin-bottom: 3em; }
@@ -35,11 +35,10 @@ div#usr-config button.btn.btn-secondary {
   margin-top: 1em; }
 
 div.sender-main {
-  display: block;
-  border: 1px solid red; }
-  div.sender-main .sender-img {
-    overflow: auto; }
-  div.sender-main .sender-main-date {
-    color: #ccc; }
+  display: block; }
+div.sender-main .sender-img {
+  overflow: auto; }
+div.sender-main .sender-main-date {
+  color: #ccc; }
 
 /*# sourceMappingURL=custom.css.map */
